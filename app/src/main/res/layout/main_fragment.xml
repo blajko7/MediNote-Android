@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_logo"
+        android:src="@mipmap/medinote_logo"
+        android:layout_marginTop="65dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Create note"
+            android:background="@mipmap/button_create"
+            android:textAlignment="viewStart"
+            android:textSize="18dp"
+            android:id="@+id/home_create_button"
+            android:layout_weight="1"
+            android:onClick="create_onClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Check note"
+            android:background="@mipmap/button_check"
+            android:textAlignment="viewStart"
+            android:textSize="18dp"
+            android:id="@+id/home_check_button"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:onClick="check_onClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Register"
+            android:textAlignment="viewStart"
+            android:textSize="18dp"
+            android:id="@+id/home_registration_button"
+            android:background="@mipmap/button_register"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:onClick="registration_onClick" />
+    </LinearLayout>
+
+</LinearLayout>

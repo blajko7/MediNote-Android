@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_logo"
+        android:src="@mipmap/medinote_logo"
+        android:layout_marginTop="65dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColor="#FFFBFF"
+            android:textSize="18dp"
+            android:id="@+id/login_nickname" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="#FFFBFF"
+            android:hint="Password"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:ems="10"
+            android:id="@+id/login_password"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:text="Login"
+            android:background="#1C9FB5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp" />
+    </LinearLayout>
+
+</LinearLayout>
