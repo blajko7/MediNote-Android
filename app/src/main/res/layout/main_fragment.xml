@@ -34,7 +34,7 @@
             android:textSize="18dp"
             android:id="@+id/home_create_button"
             android:layout_weight="1"
-            android:onClick="create_onClick" />
+             />
 
         <Button
             android:layout_width="match_parent"
@@ -46,7 +46,7 @@
             android:id="@+id/home_check_button"
             android:layout_weight="1"
             android:layout_marginTop="10dp"
-            android:onClick="check_onClick" />
+            />
 
         <Button
             android:layout_width="match_parent"
@@ -58,7 +58,7 @@
             android:background="@mipmap/button_register"
             android:layout_weight="1"
             android:layout_marginTop="10dp"
-            android:onClick="registration_onClick" />
+            />
     </LinearLayout>
 
 </LinearLayout>
