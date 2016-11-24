@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/medinote_logo"
+            android:layout_marginTop="67dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Doctor's name"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/editTextDoctorName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:hint="UIN"
+            android:textAlignment="center"
+            android:layout_below="@+id/editTextDoctorName"
+            android:id="@+id/editTextUIN" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Health Facility"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:layout_below="@+id/editTextUIN"
+            android:id="@+id/editTextHealthFacilityRegister" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/editTextHealthFacilityRegister"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/editTextEmail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:hint="Position"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/editTextPosition" />
+        <Button
+            android:text="Register"
+            android:background="#1C9FB5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPosition"
+            android:id="@+id/buttonRegister"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+</RelativeLayout>
