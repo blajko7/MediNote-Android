@@ -8,10 +8,11 @@
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
 
-    <include
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/container_home"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/main_fragment"
-        android:id="@+id/fragment" />
-
+        android:layout_gravity="right"></LinearLayout>
 </LinearLayout>

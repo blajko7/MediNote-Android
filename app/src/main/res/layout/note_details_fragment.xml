@@ -1,7 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark">
+    android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:text="Halth facility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewHealthFacility"
+                        android:layout_below="@+id/textView"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewHealthFacility"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView10" />
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewName"
+                        android:layout_below="@+id/textView10"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewName"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView3" />
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewAddress"
+                        android:layout_below="@+id/textView3"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewAddress"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView4" />
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewAge"
+                        android:layout_below="@+id/textView4"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Needs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewAge"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView5" />
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewNeeds"
+                        android:layout_below="@+id/textView5"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Serve to"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewNeeds"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView6" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewServe"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Doctor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewServe"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView7" />
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewDoctor"
+                        android:layout_below="@+id/textView7"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:text="Date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewDoctor"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/textView8" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewData"
+                        android:layout_below="@+id/textView8"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="20dp"/>
+                </RelativeLayout>
+
+
+
+
+
+        </ScrollView>
+    </RelativeLayout>
 </LinearLayout>
